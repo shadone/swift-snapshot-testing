@@ -593,6 +593,225 @@ final class SnapshotTestingTests: XCTestCase {
     #endif
   }
 
+  func assertSnapshotOnAllDevice<Value: UIViewController>(
+    matching viewController: Value,
+    file: StaticString = #file,
+    testName: String = #function,
+    line: UInt = #line) {
+    #if os(iOS)
+    if #available(iOS 11.0, tvOS 11.0, *) {
+      assertSnapshot(matching: viewController, as: .image(on: .iPhoneSe), named: "iphone-se")
+    }
+    #elseif os(tvOS)
+    assertSnapshot(
+      matching: viewController, as: .image(on: .tv), named: "tv")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhone8), named: "iphone-8")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhone8Plus), named: "iphone-8-plus")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneX), named: "iphone-x")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneXr), named: "iphone-xr")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneXsMax), named: "iphone-xs-max")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini), named: "ipad-mini")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5), named: "ipad-pro-10-5")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11), named: "ipad-pro-11")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9), named: "ipad-pro-12-9")
+
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhoneSe), named: "iphone-se")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhone8), named: "iphone-8")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhone8Plus), named: "iphone-8-plus")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhoneX), named: "iphone-x")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhoneXr), named: "iphone-xr")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPhoneXsMax), named: "iphone-xs-max")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPadMini), named: "ipad-mini")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPadPro10_5), named: "ipad-pro-10-5")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPadPro11), named: "ipad-pro-11")
+    assertSnapshot(matching: viewController, as: .recursiveDescription(on: .iPadPro12_9), named: "ipad-pro-12-9")
+
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneSe(.portrait)), named: "iphone-se")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhone8(.portrait)), named: "iphone-8")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhone8Plus(.portrait)), named: "iphone-8-plus")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneX(.portrait)), named: "iphone-x")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneXr(.portrait)), named: "iphone-xr")
+    assertSnapshot(matching: viewController, as: .image(on: .iPhoneXsMax(.portrait)), named: "iphone-xs-max")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.landscape)), named: "ipad-mini")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.landscape)), named: "ipad-pro-10-5")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.landscape)), named: "ipad-pro-11")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.landscape)), named: "ipad-pro-12-9")
+
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.landscape(splitView: .oneThird))), named: "ipad-mini-33-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.landscape(splitView: .oneHalf))), named: "ipad-mini-50-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.landscape(splitView: .twoThirds))), named: "ipad-mini-66-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.portrait(splitView: .oneThird))), named: "ipad-mini-33-split-portrait")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadMini(.portrait(splitView: .twoThirds))), named: "ipad-mini-66-split-portrait")
+
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.landscape(splitView: .oneThird))), named: "ipad-pro-10inch-33-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.landscape(splitView: .oneHalf))), named: "ipad-pro-10inch-50-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.landscape(splitView: .twoThirds))), named: "ipad-pro-10inch-66-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.portrait(splitView: .oneThird))), named: "ipad-pro-10inch-33-split-portrait")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro10_5(.portrait(splitView: .twoThirds))), named: "ipad-pro-10inch-66-split-portrait")
+
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.landscape(splitView: .oneThird))), named: "ipad-pro-11inch-33-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.landscape(splitView: .oneHalf))), named: "ipad-pro-11inch-50-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.landscape(splitView: .twoThirds))), named: "ipad-pro-11inch-66-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.portrait(splitView: .oneThird))), named: "ipad-pro-11inch-33-split-portrait")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro11(.portrait(splitView: .twoThirds))), named: "ipad-pro-11inch-66-split-portrait")
+
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.landscape(splitView: .oneThird))), named: "ipad-pro-12inch-33-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.landscape(splitView: .oneHalf))), named: "ipad-pro-12inch-50-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.landscape(splitView: .twoThirds))), named: "ipad-pro-12inch-66-split-landscape")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.portrait(splitView: .oneThird))), named: "ipad-pro-12inch-33-split-portrait")
+    assertSnapshot(matching: viewController, as: .image(on: .iPadPro12_9(.portrait(splitView: .twoThirds))), named: "ipad-pro-12inch-66-split-portrait")
+
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhoneSe(.landscape)), named: "iphone-se-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhone8(.landscape)), named: "iphone-8-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhone8Plus(.landscape)), named: "iphone-8-plus-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhoneX(.landscape)), named: "iphone-x-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhoneXr(.landscape)), named: "iphone-xr-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPhoneXsMax(.landscape)), named: "iphone-xs-max-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPadMini(.portrait)), named: "ipad-mini-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPadPro10_5(.portrait)), named: "ipad-pro-10-5-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPadPro11(.portrait)), named: "ipad-pro-11-alternative")
+    assertSnapshot(
+      matching: viewController, as: .image(on: .iPadPro12_9(.portrait)), named: "ipad-pro-12-9-alternative")
+
+    allContentSizes.forEach { name, contentSize in
+      assertSnapshot(
+        matching: viewController,
+        as: .image(on: .iPhoneSe, traits: .init(preferredContentSizeCategory: contentSize)),
+        named: "iphone-se-\(name)"
+      )
+    }
+    #endif
+  }
+  
+  /// Setting this to true changes the snapshot produced by assertSnapshot.
+  /// In Simulator and on real devices there is no different regardless of the order of operation.
+  func testTraitsWithTableView() {
+    #if os(iOS) || os(tvOS)
+    if #available(iOS 11.0, tvOS 11.0, *) {
+      class CellSetFontThenAdjusts: UITableViewCell {
+        let label = UILabel()
+
+        override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+          super.init(style: style, reuseIdentifier: reuseIdentifier)
+          self.label.translatesAutoresizingMaskIntoConstraints = false
+          self.label.text = "Hello"
+
+          self.label.font = .preferredFont(forTextStyle: .body)
+          self.label.adjustsFontForContentSizeCategory = true
+
+          self.contentView.addSubview(self.label)
+          NSLayoutConstraint.activate([
+            self.label.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor),
+            self.label.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor),
+            self.label.topAnchor.constraint(equalTo: self.contentView.topAnchor),
+            self.label.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor),
+          ])
+        }
+
+        required init?(coder: NSCoder) {
+          fatalError("init(coder:) has not been implemented")
+        }
+      }
+
+      class CellSetAdjustsThenFont: UITableViewCell {
+        let label = UILabel()
+
+        override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+          super.init(style: style, reuseIdentifier: reuseIdentifier)
+          self.label.translatesAutoresizingMaskIntoConstraints = false
+          self.label.text = "Hello"
+
+          self.label.adjustsFontForContentSizeCategory = true
+          self.label.font = .preferredFont(forTextStyle: .body)
+
+          self.contentView.addSubview(self.label)
+          NSLayoutConstraint.activate([
+            self.label.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor),
+            self.label.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor),
+            self.label.topAnchor.constraint(equalTo: self.contentView.topAnchor),
+            self.label.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor),
+          ])
+        }
+
+        required init?(coder: NSCoder) {
+          fatalError("init(coder:) has not been implemented")
+        }
+      }
+
+      class MyViewController: UIViewController, UITableViewDataSource {
+        let tableView = UITableView()
+
+        let setAdjustsFontThenSetFont: Bool
+
+        init(setAdjustsFontThenSetFont: Bool) {
+          self.setAdjustsFontThenSetFont = setAdjustsFontThenSetFont
+          super.init(nibName: nil, bundle: nil)
+        }
+
+        required init?(coder: NSCoder) {
+          fatalError("init(coder:) has not been implemented")
+        }
+
+        override func viewDidLoad() {
+          super.viewDidLoad()
+
+          self.view.backgroundColor = .white
+
+          if setAdjustsFontThenSetFont {
+            tableView.register(CellSetAdjustsThenFont.self, forCellReuseIdentifier: "Cell")
+          } else {
+            tableView.register(CellSetFontThenAdjusts.self, forCellReuseIdentifier: "Cell")
+          }
+          tableView.translatesAutoresizingMaskIntoConstraints = false
+          tableView.rowHeight = UITableView.automaticDimension
+          tableView.dataSource = self
+          self.view.addSubview(self.tableView)
+
+          NSLayoutConstraint.activate([
+            self.tableView.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
+            self.tableView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
+            self.tableView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+            self.tableView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+          ])
+          tableView.reloadData()
+        }
+
+        func numberOfSections(in tableView: UITableView) -> Int {
+          return 1
+        }
+
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+          return 42
+        }
+
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          return tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        }
+      }
+
+
+      let adjustsFontThenSetFontVC = MyViewController(setAdjustsFontThenSetFont: true)
+      let setFontThenAdjustsVC = MyViewController(setAdjustsFontThenSetFont: false)
+
+      [
+        setFontThenAdjustsVC,
+        adjustsFontThenSetFontVC,
+        ].forEach { viewController in
+          assertSnapshotOnAllDevice(matching: viewController)
+      }
+    }
+    #endif
+  }
+
   func testCollectionViewsWithMultipleScreenSizes() {
     #if os(iOS)
 
@@ -790,16 +1009,16 @@ final class SnapshotTestingTests: XCTestCase {
 private let allContentSizes =
   [
     "extra-small": UIContentSizeCategory.extraSmall,
-    "small": .small,
-    "medium": .medium,
-    "large": .large,
-    "extra-large": .extraLarge,
-    "extra-extra-large": .extraExtraLarge,
-    "extra-extra-extra-large": .extraExtraExtraLarge,
-    "accessibility-medium": .accessibilityMedium,
-    "accessibility-large": .accessibilityLarge,
-    "accessibility-extra-large": .accessibilityExtraLarge,
-    "accessibility-extra-extra-large": .accessibilityExtraExtraLarge,
+//    "small": .small,
+//    "medium": .medium,
+//    "large": .large,
+//    "extra-large": .extraLarge,
+//    "extra-extra-large": .extraExtraLarge,
+//    "extra-extra-extra-large": .extraExtraExtraLarge,
+//    "accessibility-medium": .accessibilityMedium,
+//    "accessibility-large": .accessibilityLarge,
+//    "accessibility-extra-large": .accessibilityExtraLarge,
+//    "accessibility-extra-extra-large": .accessibilityExtraExtraLarge,
     "accessibility-extra-extra-extra-large": .accessibilityExtraExtraExtraLarge,
     ]
 #endif

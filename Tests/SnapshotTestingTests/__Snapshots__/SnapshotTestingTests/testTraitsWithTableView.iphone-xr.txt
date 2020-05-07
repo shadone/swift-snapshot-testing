@@ -1,0 +1,174 @@
+<UIView; frame = (0 0; 414 896); autoresize = W+H; layer = <CALayer>>
+   | <UITableView; frame = (0 44; 414 818); clipsToBounds = YES; gestureRecognizers = <NSArray>; layer = <CALayer>; contentOffset: {0, 0}; contentSize: {414, 825.99998792012525}; adjustedContentInset: {0, 0, 0, 0}; dataSource: <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_16MyViewController>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 806.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 786.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 767; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 747.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 727.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 708; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 688.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 668.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 649; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 629.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 609.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 590; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 570.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 550.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 531; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 511.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 491.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 472; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 452.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 432.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 413; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 393.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 373.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 354; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 334.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 314.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 295; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 275.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 255.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 236; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 216.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 196.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 177; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 157.333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 137.667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 118; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 98.3333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 78.6667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 59; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 39.3333; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 19.6667; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_TtCFC20SnapshotTestingTests20SnapshotTestingTests23testTraitsWithTableViewFT_T_L_4Cell; baseClass = UITableViewCell; frame = (0 0; 414 19.6667); autoresize = W; layer = <CALayer>>
+   |    |    | <UITableViewCellContentView; frame = (0 0; 414 19.6667); gestureRecognizers = <NSArray>; layer = <CALayer>>
+   |    |    |    | <UILabel; frame = (0 0; 414 19.6667); text = 'Hello'; userInteractionEnabled = NO; layer = <_UILabelLayer>>
+   |    |    | <_UITableViewCellSeparatorView; frame = (20 19.3333; 394 0.333333); layer = <CALayer>>
+   |    | <_UIScrollViewScrollIndicator; frame = (-42 812; 36 3); alpha = 0; autoresize = TM; layer = <CALayer>>
+   |    |    | <UIView; frame = (0 0; 36 3); layer = <CALayer>>
+   |    | <_UIScrollViewScrollIndicator; frame = (408 -39; 3 36); alpha = 0; autoresize = LM; layer = <CALayer>>
+   |    |    | <UIView; frame = (0 0; 3 36); layer = <CALayer>>
